@@ -366,6 +366,17 @@
   }
   .series-slider {
     position: relative;
+    .update-loading {
+      background: darken(#4b5360, 5);
+      color: #999;
+      border-radius: 3px;
+      text-align: center;
+      height: 254px;
+      line-height: 254px;
+      .fa-spinner {
+        font-size: 32px;
+      }
+    }
     .arrow-nav {
       color: #5f6673;
       &:hover {
